@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Band</title>
+        <section id = "header">
+                <h1>
+                    <img src="logo.png"/>
+                </h1>
+                <h3>
+                    <nav>
+                        <ul>
+                            <li><a href="#header">HOME</a></li>
+                            <li><a href="#about">ABOUT</a></li>
+                            <li><a href="#concerts">CONCERTS</a></li>
+                            <li><a href="#video">VIDEO</a></li>
+                            <li><a href="#photos">PHOTOS</a></li>
+                            <li><a href="#contact">CONTACT</a></li>
+                        </ul>
+                    </nav>
+                </h3>
+                <h3>
+                    <div class="row">
+                        <span class="column">
+                            <img src ="band-member01.png"/>
+                        </span>
+                        <span class="column">
+                            <img src ="band-member02.png"/>
+                        </span>
+                        <span class="column">
+                            <img src ="band-member03.png"/>
+                        </span>
+                        <span class="column">
+                            <img src ="band-member04.png"/>
+                        </span>                        
+                    </div>            
+                </h3>
+                <h3>
+                    <div class ="social">
+                        <li><img src="fb.svg"/></li>
+                        <li><img src="insta.svg"/></li>
+                        <li><img src="last.svg"/></li>
+                        <li><img src="yout.svg"/></li>
+                    </div>
+                </h3>
+            </div><!-- Koniec sekcji header-->
+    </head>
+    <body>
+        <section id="about">
+            <h3>ABOUT</h3>
+            <article>
+                <h4>STRAIGHT FROM LUBLIN</h4>
+                <p>6BM is a young band which has it's origins in the city of Lublin, playing music described as electrorock.
+                Band members aim to convey emotions, reflexion but also hope.<br />     
+                They are inspired by various genres, like: 
+                alternative rock, nu-metal, synthwave or even drum'n'bass. As for now they released their debut EP - TRINITY 
+                and they started working on their first full length album.</p>
+            </article>
+            <img src="band01.jpg"/>
+        </section>
+        <section id="concerts">
+            <h3>CONCERTS</h3>
+                <img src="band02_WiechnikMarcin.jpg"/>
+                <div class="date"><p>20.12.2018</p></div>
+                <div class="venue">Lublin, klub XXX</div>
+                <div class="kupTeraz"><button type="submit">Buy Ticket</button></div>
+            <span>
+                <img src="band03_WiechnikMarcin.jpg"/>
+                <div class="date">20.12.2018</div>
+                <div class="venue">Warszawa, klub YYY</div>
+                <div class="kupTeraz"><button type="submit">Buy Ticket</button></div>
+            </span>
+            
+                <img src="band04_JakubBodys.jpg"/>
+                <div class="date">20.12.2018</div>
+                <div class="venue">Kraków, klub ZZZ</div>
+                <div class="kupTeraz"><button type="submit">Buy Ticket</button></div>
+            </span>
+            <span>    
+                <img src="band05_JakubBodys.jpg"/>
+                <div class="date">20.12.2018</div>
+                <div class="venue">Poznań, klub AAA</div>
+                <div class="kupTeraz"><button type="submit">Buy Ticket</button></div>
+            </span>    
+        </section>
+        <section id="video">
+            <h3>VIDEO</h3>
+            <iframe width="560" height="315" 
+            src="https://www.youtube.com/embed/AstRXh-vKNI" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen></iframe>
+        </section>
+        <section id="photos">
+            <h3>PHOTOS</h3>
+            <img src="band07.jpg">
+            <img src="band08.jpg">
+            <img src="band09.jpg">
+            <img src="band10.jpg">
+            <img src="band11.jpg">
+            <img src="band02_WiechnikMarcin.jpg">
+            <img src="band04_JakubBodys.jpg">
+            <img src="band05_JakubBodys.jpg">
+            <img src="band03_WiechnikMarcin.jpg">
+        </section>
+        <section id="contact">
+                <h3>CONTACT</h3>
+                <img src="band12.jpg"/>
+                <p>tel.: 00 48 999 00 00</p>
+                <p>e-mail: 6mband@mail.mail</p>
+            <form action="http://costam.pl/mail" method="POST">
+                <label for="mail">Mail:
+                    <input id="name"type="text" name="usermail" size="15" maxlength="100"/>
+                </label>
+                <br />
+                <label for="topic">Topic:
+                        <input id="topic"type="text" name="topic" size="15" maxlength="255"/>
+                </label>
+                <br />
+                <br />
+                <button type="submit">Contact us</button>
+            </form>
+        </section>
+    </body>
+</html>
